@@ -1,0 +1,50 @@
+// packingData.js - This file stores all the packing-related data
+
+export const destinations = ["Kailash Mansarovar", "Kailash Full Moon", "Lhasa-Kailash"];
+
+export const weatherConditions = ["Cold", "Warm", "Rainy", "Hot"];
+
+// Packing suggestions based on destination
+export const packingSuggestions = {
+  "Kailash Mansarovar": [
+    "Hiking Boots",
+    "Thermal Wear",
+    "Waterproof Jacket",
+    "Prayer Flags",
+    "Backpack",
+    "Sunglasses",
+    "Camera",
+    "Power Bank",
+    "First Aid Kit",
+    "Flashlight",
+  ],
+  "Kailash Full Moon": [
+    "Warm Layers",
+    "Thermal Gloves",
+    "Headlamp",
+    "Sunscreen",
+    "Waterproof Bag",
+    "Comfortable Hiking Shoes",
+    "Camera with Extra Battery",
+    "Personal Medications",
+  ],
+  "Lhasa-Kailash": [
+    "Comfortable Walking Shoes",
+    "Water Bottle",
+    "Sun Hat",
+    "Casual Wear for Lhasa",
+    "Warm Clothes for Kailash",
+    "Sunscreen",
+    "Camera",
+    "Travel Pillow",
+    "Backpack",
+  ],
+};
+
+// Additional packing items based on weather conditions
+export const weatherExtras = {
+  Cold: ["Heavy Jacket", "Woolen Cap", "Thermal Wear", "Hand Warmers", "Gloves"],
+  Warm: ["Light Clothes", "Sunscreen", "Sunglasses", "Cooling Towel"],
+  Rainy: ["Raincoat", "Waterproof Shoes", "Umbrella", "Waterproof Backpack Cover"],
+  Hot: ["Cooling Towel", "Hydration Pack", "Cap", "Portable Fan"],
+};
