@@ -1,0 +1,50 @@
+export const testimonialsData = [
+  {
+    name: "Rajesh Kumar",
+    feedback:
+      "An unforgettable journey! The majestic view of Mount Kailash and the serenity of Lake Mansarovar left me speechless. The entire yatra was well-planned and deeply spiritual.",
+    location: "Chennai, India",
+  },
+  {
+    name: "Anjali Desai",
+    feedback:
+      "A divine experience like no other! The Parikrama around Kailash was both challenging and rewarding. The team's support made it smooth and comfortable.",
+    location: "Surat, India",
+  },
+  {
+    name: "Amit Tiwari",
+    feedback:
+      "Words cannot describe the spiritual energy I felt at Kailash Mansarovar. The arrangements were flawless, and every moment felt blessed. Highly recommended!",
+    location: "Lucknow, India",
+  },
+  {
+    name: "Meera Joshi",
+    feedback:
+      "From breathtaking landscapes to seamless arrangements, this journey was life-changing. Taking a dip in Lake Mansarovar was the most peaceful experience of my life.",
+    location: "Pune, India",
+  },
+  {
+    name: "Sandeep Sharma",
+    feedback:
+      "An incredible experience! The trek was challenging but worth every step. The darshan of Mount Kailash made all the effort worthwhile. I would do it again!",
+    location: "Jaipur, India",
+  },
+  {
+    name: "Priyanka Malhotra",
+    feedback:
+      "A journey of a lifetime! The beauty of Tibet, the holiness of Kailash, and the purity of Mansarovar made this yatra truly divine. Excellent arrangements by the team!",
+    location: "Delhi, India",
+  },
+  {
+    name: "Vivek Reddy",
+    feedback:
+      "A dream come true! I never imagined experiencing such divine energy. The yatra was well-organized, and the team ensured our comfort throughout.",
+    location: "Hyderabad, India",
+  },
+  {
+    name: "Reema Chopra",
+    feedback:
+      "Seeing Mount Kailash up close was surreal! The entire journey was spiritually uplifting. Grateful for the smooth travel arrangements.",
+    location: "Kolkata, India",
+  },
+];

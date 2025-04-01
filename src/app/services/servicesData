@@ -1,0 +1,58 @@
+const servicesData = [
+  {
+    id: 1,
+    title: "Flight Booking",
+    description: "Seamless flight booking for domestic and international travel.",
+    details:
+      "We offer hassle-free flight bookings with the best deals on major airlines. Whether you’re traveling to Kailash Mansarovar or any other destination, we provide flexible ticketing, competitive prices, and multiple airline options. Our experts help you find the best routes, layovers, and discounts to ensure a cost-effective and comfortable journey. Get real-time updates, baggage assistance, and customer support for any flight-related queries.",
+    image: "/Service-flight.jpg",
+    highlights: ["Best Deals", "Multiple Airlines", "Flexible Dates", "Instant Booking"]
+  },
+  {
+    id: 2,
+    title: "Hotel Reservations",
+    description: "Stay at premium hotels, resorts, and budget-friendly accommodations.",
+    details:
+      "Finding the right accommodation can make or break your trip. We ensure you get the best options, from luxurious five-star hotels to cozy budget-friendly stays near major pilgrimage sites like Kailash Mansarovar. Our partnerships with top hotels give you exclusive discounts, priority check-ins, and additional perks. Whether you need a mountain lodge, a city hotel, or a spiritual retreat, we’ve got you covered.",
+    image: "/Services-hotel.jpg",
+    highlights: ["Luxury & Budget", "Verified Hotels", "Exclusive Discounts", "24/7 Assistance"]
+  },
+  {
+    id: 3,
+    title: "Tour Packages",
+    description: "Curated tours for a memorable journey, including Kailash Mansarovar Yatra.",
+    details:
+      "Experience an unforgettable journey with our well-organized tour packages. Our Kailash Mansarovar Yatra package includes guided tours, comfortable accommodations, and transportation. We offer different itineraries catering to varied budgets and preferences. Our expert guides ensure a smooth journey, covering must-visit sites, hidden gems, and sacred locations. From sightseeing to adventure-packed treks, we have something for everyone.",
+    image: "/Tour-package.jpg",
+    highlights: ["Custom Packages", "Local Guides", "Hassle-Free", "Best Sightseeing"]
+  },
+  {
+    id: 4,
+    title: "Visa Assistance",
+    description: "Simplified visa processing for international travelers.",
+    details:
+      "Navigating visa procedures can be complicated, but we simplify the process for you. Our team assists with visa applications, document preparation, and timely approvals for China, Nepal, and other countries required for your Kailash Mansarovar Yatra. We ensure all necessary travel permits and special permissions are obtained in advance, so you can focus on your journey without bureaucratic stress.",
+    image: "/Service-Visa.jpg",
+    highlights: ["Easy Process", "Expert Guidance", "Quick Approval", "All Countries Supported"]
+  },
+  {
+    id: 5,
+    title: "Travel Insurance",
+    description: "Secure your journey with our comprehensive travel insurance plans.",
+    details:
+      "Travel with peace of mind by getting insured against unexpected situations. Our travel insurance covers medical emergencies, trip cancellations, lost baggage, flight delays, and emergency evacuations. High-altitude journeys like the Kailash Mansarovar Yatra require special coverage, and we provide tailored insurance policies that cater to such challenging terrains and medical risks. Enjoy your trip knowing you are fully protected.",
+    image: "/Service-Assured.jpg",
+    highlights: ["Medical Coverage", "Trip Cancellation", "Baggage Protection", "24/7 Support"]
+  },
+  {
+    id: 6,
+    title: "Car Rentals",
+    description: "Reliable car rental services for city and remote travel.",
+    details:
+      "Travel comfortably with our reliable car rental services. Whether you need a luxury SUV for a smooth ride to Kailash Mansarovar or an affordable city car for local travel, we offer a variety of vehicles to suit your needs. All our rentals come with experienced drivers familiar with high-altitude and rugged terrains. Choose from self-drive or chauffeur-driven options with flexible pick-up and drop-off locations.",
+    image: "/Service-Rent.jpg",
+    highlights: ["Multiple Options", "Best Prices", "Easy Booking", "Luxury & Budget Cars"]
+  }
+];
+
+export default servicesData;

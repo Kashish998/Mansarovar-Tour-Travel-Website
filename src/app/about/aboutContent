@@ -1,0 +1,73 @@
+const aboutContent = {
+    title: "The Sacred Journey to Kailash Mansarovar",
+    description: `
+      Nestled in the remote Himalayas, Mount Kailash is considered one of the holiest places on Earth. Hindus believe it to be the abode of Lord Shiva, while Buddhists identify it as Mount Meru, the axis of the universe. Jains and Bon followers also regard it as a center of cosmic energy and liberation.
+    `,
+    additionalInfo: `
+      Towering at an altitude of 6,638 meters (21,778 feet), Mount Kailash remains unclimbed due to its sacred status. Pilgrims undertake the Kora (Parikrama), a 52-km circumambulation of the mountain, which is believed to cleanse one’s soul and bring spiritual enlightenment.
+      
+      The rugged paths of the Kailash Yatra challenge both the body and spirit, making it one of the most revered pilgrimages in the world. The sacred mountain has been a site of worship for thousands of years, drawing seekers from all faiths in pursuit of divine blessings.
+    `,
+    lakeMansarovar: `
+      Adjacent to Kailash lies the mesmerizing Lake Mansarovar, one of the highest freshwater lakes in the world. Taking a holy dip in its waters is believed to wash away sins and bring spiritual purification.
+  
+      The lake changes colors throughout the day—deep blue in the morning, emerald green by noon, and golden at sunset—adding to its mystical allure. The serene environment around the lake is perfect for meditation, reflection, and connecting with the divine.
+    `,
+    journeyTitle: "The Journey of a Lifetime",
+    journeyDescription: `
+      Embark on a spiritual journey to the sacred Kailash Mansarovar, where faith meets breathtaking landscapes. This pilgrimage is not just a test of endurance but a path to profound spiritual awakening.
+      
+      The Kailash Yatra is often described as a life-transforming experience, where pilgrims surrender to the raw beauty of nature, endure physical hardships, and embrace the serenity of one of the most sacred places on Earth. The journey instills a sense of humility, gratitude, and deep inner peace.
+    `,
+    features: [
+      { icon: "✔", title: "High Altitude Adventure", text: "Cross the Dolma La Pass (5,636m), a challenging yet rewarding trek with breathtaking views." },
+      { icon: "✔", title: "Unpredictable Weather", text: "Experience varying climates as you traverse rugged terrains, from icy cold winds to bright sunshine." },
+      { icon: "✔", title: "Spiritual Awakening", text: "Complete the sacred Kora (Parikrama) for inner peace, self-purification, and divine blessings." },
+      { icon: "✔", title: "Holy Lake Mansarovar", text: "Take a divine dip in one of the highest freshwater lakes, believed to cleanse sins and bring good fortune." },
+      { icon: "✔", title: "Ancient Monasteries", text: "Visit centuries-old Buddhist monasteries near Kailash and Mansarovar, each holding deep spiritual significance." },
+      { icon: "✔", title: "Mythology & History", text: "Learn about the legendary tales of Lord Shiva, Buddha, and other religious figures associated with this sacred land." },
+    ],
+    routes: [
+      { icon: "📍", title: "Via Nepal", text: "Travel through Kathmandu, Syabrubesi, and Kerung before entering Tibet. This route offers a scenic blend of cultural and natural beauty." },
+      { icon: "📍", title: "Via India", text: "Routes through Lipulekh Pass (Uttarakhand) and Nathu La (Sikkim) are designated for Indian pilgrims. They provide an alternative yet rigorous path to Kailash." },
+      { icon: "📍", title: "Via Tibet", text: "The fastest route via Lhasa, primarily for international travelers. It includes visits to Potala Palace, Jokhang Temple, and other Tibetan landmarks." },
+      { icon: "📍", title: "The Inner Kora", text: "A more challenging and spiritually intense route that involves trekking to the inner circle of Mount Kailash, accessible only to a few." },
+    ],
+    enduranceTitle: "A Test of Faith and Endurance",
+    enduranceDescription: `
+      Completing the Kailash Mansarovar Yatra is a journey of strength and devotion. Many pilgrims return with a deep spiritual connection and a renewed sense of purpose.
+  
+      This pilgrimage is not just about physical endurance; it is about mental and spiritual resilience. The high altitudes, unpredictable weather, and challenging terrain test one’s patience, determination, and unwavering faith.
+  
+      The journey serves as a reminder of life’s impermanence and the importance of humility, making it a deeply transformative experience.
+    `,
+    significanceTitle: "Cultural & Religious Significance",
+    significanceDescription: `
+      The Kailash Mansarovar region is revered across multiple religions:
+  
+      - **Hinduism:** Considered the home of Lord Shiva and Goddess Parvati, Kailash is the ultimate destination for devotees seeking spiritual liberation (moksha).
+      - **Buddhism:** Regarded as the sacred Mount Meru, the spiritual center of the universe, visited by Tibetan and international Buddhists for prayer and meditation.
+      - **Jainism:** Believed to be the site where Rishabhadeva, the first Tirthankara, attained nirvana.
+      - **Bon Religion:** The followers of Bon, Tibet’s indigenous faith, consider Kailash their spiritual heartland and a place of immense cosmic energy.
+  
+      Each step taken on this sacred land is believed to purify one's soul, bringing enlightenment and divine blessings.
+    `,
+    localCultureTitle: "Exploring Tibetan Culture & Traditions",
+    localCultureDescription: `
+      The Kailash region is home to Tibetan nomads, monks, and local communities who have preserved their unique traditions for centuries. 
+  
+      Pilgrims can witness traditional Tibetan prayer ceremonies, visit ancient monasteries, and interact with locals who share their profound spiritual wisdom. The colorful prayer flags fluttering in the wind symbolize peace, compassion, and blessings for all beings.
+    `,
+    travelTipsTitle: "Essential Travel Tips",
+    travelTips: [
+      { icon: "🎒", title: "Packing Essentials", text: "Carry warm clothing, sturdy trekking shoes, a first-aid kit, and essential medications." },
+      { icon: "💪", title: "Physical Preparation", text: "Practice endurance training, yoga, and breathing exercises to prepare for high altitudes." },
+      { icon: "🌿", title: "Acclimatization", text: "Spend a few days at intermediate altitudes to avoid altitude sickness before the trek." },
+      { icon: "🚶‍♂️", title: "Trekking Strategy", text: "Walk at a slow, steady pace, stay hydrated, and listen to your body’s needs." },
+      { icon: "🛂", title: "Permits & Documentation", text: "Ensure you have the necessary visas, permits, and medical clearances before traveling." },
+      { icon: "🙏", title: "Respect Local Customs", text: "Show reverence to sacred sites, avoid loud noises, and follow religious traditions during your visit." },
+    ],
+  };
+  
+  export default aboutContent;
+  
