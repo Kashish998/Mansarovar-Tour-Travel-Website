@@ -22,9 +22,15 @@ export default function LhasaKailashTour() {
   return (
     <div className="bg-gray-50 min-h-screen">
       <Hero />
+<<<<<<< HEAD
       <div className="max-w-6xl mx-auto px-2 md:px-0 pt-8 space-y-8">
       <div className="max-w-6xl mx-auto px-2 md:px-0 pt-8 space-y-8">
   <div className="bg-gray-50 py-10 px-2 md:px-4">
+=======
+      <div className="max-w-6xl mx-auto px-4 md:px-0 pt-8 space-y-8">
+      <div className="max-w-6xl mx-auto px-4 md:px-0 pt-8 space-y-8">
+  <div className="bg-gray-50 py-10 px-4 md:px-8">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     {/* Animated Card Container */}
     <motion.div
       className="max-w-6xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden flex flex-col md:flex-row transition-all duration-500 hover:shadow-2xl"
@@ -32,13 +38,24 @@ export default function LhasaKailashTour() {
     >
       {/* Image Grid Section */}
       <motion.div
+<<<<<<< HEAD
         className="w-full md:w-1/2 "
+=======
+        className="w-full md:w-1/2 grid grid-cols-2 gap-2"
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
+<<<<<<< HEAD
         <Image src="/KailashLahasa-Package.webp" alt="Lhasa City" width={350} height={250} className="w-full h-full object-cover" />
        
+=======
+        <Image src="/lhasa.jpg" alt="Lhasa City" width={350} height={250} className="w-full h-full object-cover" />
+        <Image src="/lahasa1.jpeg" alt="Potala Palace" width={350} height={250} className="w-full h-full object-cover" />
+        <Image src="/kap.jpg" alt="Lake Mansarovar" width={350} height={250} className="w-full h-full object-cover" />
+        <Image src="/history.JPG" alt="Mount Kailash" width={350} height={250} className="w-full h-full object-cover" />
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       </motion.div>
 
       {/* Content Section */}
@@ -50,7 +67,11 @@ export default function LhasaKailashTour() {
       >
         {/* Styled Heading */}
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+<<<<<<< HEAD
           Lhasa Kailash Package
+=======
+          Lhasa to Kailash Overland Pilgrimage
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         </h2>
 
         {/* Updated Brief Description */}
@@ -62,8 +83,12 @@ export default function LhasaKailashTour() {
         <p className="mt-2 text-gray-700 text-base leading-relaxed">
           Travel across the vast Tibetan plateau, passing turquoise lakes, ancient monasteries, 
           and snow-capped peaks. Witness the sacred Lake Mansarovar and take part in the revered 
+<<<<<<< HEAD
           Kailash Kora, a spiritual trek around Mount Kailash. The highlight of the journey is the Kailash Kora, a 52-km pilgrimage trek around the mountain, considered one of the most sacred and challenging spiritual experiences.
           Trek through Dira Phuk and Dolma La Pass (5,630m), experiencing prayer flags fluttering in the wind, pilgrims performing prostrations, and a deep sense of inner peace and devotion.
+=======
+          Kailash Kora, a spiritual trek around Mount Kailash.
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         </p>
 
         {/* Key Highlights */}
@@ -86,6 +111,7 @@ export default function LhasaKailashTour() {
           </div>
         </div>
 
+<<<<<<< HEAD
       {/* Buttons for package details & contact */}
       <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-2 mt-4">
   {/* WhatsApp Button */}
@@ -112,12 +138,51 @@ export default function LhasaKailashTour() {
     </button>
   </Link>
 </div>
+=======
+        {/* CTA Buttons - Optimized for Mobile & Desktop */}
+        <div className="mt-5 flex flex-col md:flex-row md:space-x-3 space-y-2 md:space-y-0">
+          {/* Call Now Button */}
+          <Link href="tel:+1234567890" className="w-full md:w-auto">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              className="w-full md:w-auto px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-md shadow-md flex items-center justify-center space-x-2 transition-all hover:bg-green-700"
+            >
+              <FaPhoneAlt className="text-base" />
+              <span>Call</span>
+            </motion.button>
+          </Link>
+
+          {/* Enquiry Now Button */}
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            className="w-full md:w-auto px-3 py-2 bg-yellow-500 text-white text-sm font-medium rounded-md shadow-md flex items-center justify-center space-x-2 transition-all hover:bg-yellow-600"
+          >
+            <FaEnvelope className="text-base" />
+            <Link href="/contact">   <span>Enquiry</span></Link>
+          </motion.button>
+
+          {/* WhatsApp Button */}
+          <Link href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              className="w-full md:w-auto px-3 py-2 bg-blue-500 text-white text-sm font-medium rounded-md shadow-md flex items-center justify-center space-x-2 transition-all hover:bg-blue-600"
+            >
+              <FaWhatsapp className="text-base" />
+              <span>WhatsApp</span>
+            </motion.button>
+          </Link>
+        </div>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       </motion.div>
     </motion.div>
   </div>
 </div> <div className="max-w-6xl mx-auto py-12 px-6">
   {/* Main Heading */}
+<<<<<<< HEAD
   <h2 className="text-4xl font-bold text-center mb-10 text-gray-900 uppercase tracking-wide border-b-4 border-yellow-600 pb-4">
+=======
+  <h2 className="text-4xl font-bold text-center mb-10 text-gray-900 uppercase tracking-wide border-b-4 border-blue-600 pb-4">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     Lhasa-Kailash Itinerary
   </h2>
 
@@ -131,12 +196,20 @@ export default function LhasaKailashTour() {
             onClick={() => setSelectedDay(index)}
             className={`w-full flex items-center justify-between py-3 px-4 rounded-lg font-semibold transition-all text-lg ${
               selectedDay === index
+<<<<<<< HEAD
                 ? "bg-yellow-600 text-white shadow-md"
+=======
+                ? "bg-blue-600 text-white shadow-md"
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                 : "bg-gray-200 hover:bg-gray-300 text-gray-800"
             }`}
           >
             <span className="flex items-center gap-2">
+<<<<<<< HEAD
               <FaCalendarAlt className="text-grey-500" /> {item.day}: {item.title}
+=======
+              <FaCalendarAlt className="text-blue-500" /> {item.day}: {item.title}
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             </span>
             {selectedDay === index ? <FaChevronUp /> : <FaChevronDown />}
           </button>
@@ -158,13 +231,21 @@ export default function LhasaKailashTour() {
 
               {/* Key Features */}
               <div className="mt-4">
+<<<<<<< HEAD
                 <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-black pl-3">
+=======
+                <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-blue-600 pl-3">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                   Key Features
                 </h4>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {item.highlights.map((highlight, i) => (
                     <li key={i} className="flex items-center gap-2 bg-gray-100 p-3 rounded-lg shadow-md transition-all hover:bg-blue-50">
+<<<<<<< HEAD
                       <FaMapMarkerAlt className="text-yellow-500" /> {highlight}
+=======
+                      <FaMapMarkerAlt className="text-blue-500" /> {highlight}
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                     </li>
                   ))}
                 </ul>
@@ -197,13 +278,21 @@ export default function LhasaKailashTour() {
 
       {/* Key Features */}
       <div className="mt-6">
+<<<<<<< HEAD
         <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-black pl-3">
+=======
+        <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-blue-600 pl-3">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
           Key Features
         </h4>
         <ul className="grid grid-cols-1  gap-3">
           {itineraryData[selectedDay].highlights.map((highlight, i) => (
             <li key={i} className="flex items-center gap-2 bg-gray-100 p-3 rounded-lg shadow-md transition-all hover:bg-blue-50">
+<<<<<<< HEAD
               <FaMapMarkerAlt className="text-yellow-500" /> {highlight}
+=======
+              <FaMapMarkerAlt className="text-blue-500" /> {highlight}
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             </li>
           ))}
         </ul>
@@ -213,12 +302,20 @@ export default function LhasaKailashTour() {
 </div>
 
         <div className="bg-white shadow-lg rounded-2xl p-6">
+<<<<<<< HEAD
           <h2 className="text-2xl font-bold flex items-center gap-2"><FaQuestionCircle className="text-yellow-500" /> Frequently Asked Questions</h2>
+=======
+          <h2 className="text-2xl font-bold flex items-center gap-2"><FaQuestionCircle className="text-blue-500" /> Frequently Asked Questions</h2>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
           <div className="mt-4 space-y-4">
             {faqs.map((faq, index) => (
               <div key={index} className="bg-gray-100 p-4 rounded-lg shadow-md">
                 <button className="flex justify-between items-center w-full text-lg font-semibold" onClick={() => setOpenFAQ(openFAQ === index ? null : index)}>
+<<<<<<< HEAD
                   {faq.question} <span className="text-yellow-500 text-xl">{openFAQ === index ? <FaMinus /> : <FaPlus />}</span>
+=======
+                  {faq.question} <span className="text-blue-500 text-xl">{openFAQ === index ? <FaMinus /> : <FaPlus />}</span>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                 </button>
                 {openFAQ === index && <p className="mt-3 text-gray-700">{faq.answer}</p>}
               </div>

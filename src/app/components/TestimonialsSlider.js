@@ -11,7 +11,11 @@ import { testimonialsData } from "../data/testimonialsData"; // Import testimoni
 
 export default function Testimonials() {
   return (
+<<<<<<< HEAD
     <div className="relative w-full bg-gradient-to-b from-gray-100 to-white py-10 px-6">
+=======
+    <div className="relative w-full bg-gradient-to-b from-gray-100 to-white py-20 px-6">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
      
 {/* Section Heading */}
 <motion.div
@@ -20,8 +24,13 @@ export default function Testimonials() {
   transition={{ duration: 1, ease: "easeOut" }}
   className="text-center mb-12"
 >
+<<<<<<< HEAD
   <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 uppercase tracking-wide">
     What Our Travelers Say✨
+=======
+  <h2 className="text-4xl sm:text-4xl font-extrabold text-gray-900 uppercase tracking-wide">
+    ✨ What Our Travelers Say ✨
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
   </h2>
   <div className="mt-3 mx-auto w-24 h-1 bg-yellow-500 rounded-full"></div>
 </motion.div>
@@ -77,7 +86,11 @@ export default function Testimonials() {
           Let our experts guide you to an unforgettable adventure!
         </p>
         <Link href="/query-form">
+<<<<<<< HEAD
           <button className="mt-5 bg-yellow-400 text-black font-semibold py-3 px-8 rounded-lg hover:bg-yellow-600 transition duration-300">
+=======
+          <button className="mt-5 bg-yellow-400 text-black font-semibold py-3 px-8 rounded-lg hover:bg-yellow-500 transition duration-300">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             Send Inquiry
           </button>
         </Link>

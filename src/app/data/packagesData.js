@@ -26,7 +26,11 @@ const PACKAGES = [
     location: "Tibet, China",
     difficulty: "Challenging",
     rating: 4,
+<<<<<<< HEAD
     img: "/Lahasa-kailash.jpg",
+=======
+    img: "/Lahasa.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     highlights: [
       "Explore Lhasa & Potala Palace",
       "Scenic Overland Drive",
@@ -53,7 +57,10 @@ const PACKAGES = [
     ],
     link: "/packages/helicopter-tour",
   },
+<<<<<<< HEAD
   
+=======
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
   {
     title: "Kailash Yatra - 10 Days",
     description:
@@ -63,7 +70,11 @@ const PACKAGES = [
     location: "Tibet, China",
     difficulty: "Moderate",
     rating: 4,
+<<<<<<< HEAD
     img: "/Kailash-yatra.jpg",
+=======
+    img: "/kailash-trek-4.webp",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     highlights: [
       "Sacred Lake Mansarovar",
       "Three-Day Kailash Parikrama",
@@ -72,7 +83,29 @@ const PACKAGES = [
     ],
     link: "/packages/kailash-mansarovar",
   },
+<<<<<<< HEAD
  
+=======
+  
+  {
+    title: "Saga Kailash Trek",
+    description:
+      "This off-the-beaten-path journey takes you through Nepal’s remote Humla region before crossing into Tibet. The trek offers a blend of adventure and spirituality, with breathtaking mountain views, high passes, and authentic Tibetan culture. This tour is ideal for those seeking a truly immersive Kailash Yatra experience, combining trekking and cultural exploration.",
+    duration: "18 Days",
+    price: "0",
+    location: "Nepal & Tibet",
+    difficulty: "Difficult",
+    rating: 4,
+    img: "/saga1.jpeg",
+    highlights: [
+      "Scenic Trek through Humla Valley",
+      "Remote & Peaceful Route",
+      "Cultural Experience with Locals",
+      "Kailash Parikrama & Mansarovar Visit",
+    ],
+    link: "/packages/saga-dawa",
+  },
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
 ];
 
 export default PACKAGES;

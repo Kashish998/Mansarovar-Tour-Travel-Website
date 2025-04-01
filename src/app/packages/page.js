@@ -24,11 +24,16 @@ export default function HomePackages() {
 
       {/* Section Heading */}
       <motion.div
+<<<<<<< HEAD
         className="text-center mb-6 pt-6 pb-3 px-4 w-full"
+=======
+        className="text-center mb-6 pt-6 px-4 w-full"
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
+<<<<<<< HEAD
     <h2 className="text-3xl sm:text-5xl md:text-4xl font-extrabold text-gray-800 relative inline-block">
     Kailash Mansarovar Packages
     <span className="absolute bottom-[-8px] left-1/2 transform -translate-x-1/2 w-20 h-1 bg-yellow-500 rounded-full"></span>
@@ -39,6 +44,12 @@ export default function HomePackages() {
     Explore our exclusive travel packages for a sacred and adventurous journey.
   </p>
 
+=======
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-800 relative">
+          Kailash Mansarovar Packages
+          <span className="absolute bottom-[-8px] left-1/2 transform -translate-x-1/2 w-20 h-1 bg-yellow-500 rounded-full"></span>
+        </h2>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       </motion.div>
 
       {/* Package Cards - Fully Responsive */}
@@ -95,6 +106,7 @@ export default function HomePackages() {
               {/* Description */}
               <p className="text-gray-600 text-sm flex-grow mt-2">{pkg.description}</p>
 
+<<<<<<< HEAD
              
                         {/* Buttons for package details & contact */}
                         <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-2 mt-4">
@@ -133,6 +145,26 @@ export default function HomePackages() {
                   </button>
                 </Link>
                
+=======
+              {/* Buttons */}
+              <div className="flex justify-between mt-4">
+                <Link href={pkg.link}>
+                  <button className="bg-black text-white py-2 px-4 rounded-md hover:bg-gray-900">
+                    View Details
+                  </button>
+                </Link>
+                <div className="flex space-x-3">
+                  <a href="tel:+1234567890" aria-label="Call Us">
+                    <PhoneCall size={22} className="text-black hover:text-yellow-500 transition" />
+                  </a>
+                  <a href="mailto:info@example.com" aria-label="Email Us">
+                    <Mail size={22} className="text-black hover:text-yellow-500 transition" />
+                  </a>
+                  <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Us">
+                    <MessageCircle size={22} className="text-black hover:text-yellow-500 transition" />
+                  </a>
+                </div>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
               </div>
             </div>
           </motion.div>

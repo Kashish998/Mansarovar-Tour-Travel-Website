@@ -116,14 +116,22 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           <Image 
+<<<<<<< HEAD
             src="/logo-v2.webp" 
+=======
+            src="/logo.webp" 
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             alt="Himalayan Glory Travels" 
             width={40} 
             height={40} 
             priority // Loads instantly for better performance
             className="h-10 w-10 rounded-full" 
           />
+<<<<<<< HEAD
           <span className="ml-3 font-semibold text-lg text-white">Mansarovar Tour & Travels</span>
+=======
+          <span className="ml-3 font-semibold text-lg text-white">Himalayan Glory Travels</span>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         </div>
 
         {/*  Desktop Menu */}
@@ -150,6 +158,7 @@ export default function Navbar() {
 
         {/*  Mobile Menu Button */}
         <button
+<<<<<<< HEAD
   onClick={() => setOpen(!open)}
   className="lg:hidden text-white"
   aria-label={open ? "Close menu" : "Open menu"}
@@ -157,6 +166,13 @@ export default function Navbar() {
   {open ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
 </button>
 
+=======
+          onClick={() => setOpen(!open)}
+          className="lg:hidden text-white"
+        >
+          {open ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
+        </button>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       </div>
 
       {/*  Mobile Menu */}

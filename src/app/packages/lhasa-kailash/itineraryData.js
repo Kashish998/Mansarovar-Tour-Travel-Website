@@ -7,7 +7,11 @@
       The first day is dedicated to acclimatization, as adjusting to the high altitude is crucial for a comfortable journey ahead.
       Take a rest at your hotel or explore the vibrant local markets to get a feel of Tibetan culture. In the evening,
       you can enjoy a traditional Tibetan dinner at a local restaurant, giving you a taste of authentic Tibetan cuisine.`,
+<<<<<<< HEAD
       image: "/Lahasa-sunrise.jpeg",
+=======
+      image: "/Yatra.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: ["Airport Pickup", "Hotel Check-in", "Acclimatization", "Local Market Walk", "Traditional Tibetan Dinner"]
     },
     {
@@ -19,7 +23,11 @@
       a revered pilgrimage site for Tibetan Buddhists. Surrounding the temple is Barkhor Street,
       a lively marketplace where you can shop for traditional Tibetan handicrafts and souvenirs. Wrap up the day by
       soaking in the spiritual aura of this fascinating city.`,
+<<<<<<< HEAD
       image: "/Kailash-temple.webp",
+=======
+      image: "/Lahasa.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: ["Potala Palace", "Jokhang Temple", "Barkhor Street Shopping", "Local Tibetan Cuisine"]
     },
     {
@@ -32,7 +40,11 @@
       By late afternoon, arrive in Shigatse, the second-largest city in Tibet. Here, visit the renowned Tashilhunpo Monastery, the seat of the Panchen Lama, Tibet’s second-highest spiritual leader. This monastery, built in the 15th century, houses a magnificent 26-meter-tall Maitreya Buddha statue and stunning golden-roofed structures. Stroll through the bustling local markets in Shigatse, where you can shop for authentic Tibetan crafts and souvenirs.
   
       Check-in at your hotel and relax after a long yet exhilarating day. Overnight stay in Shigatse, preparing for the next leg of your adventure.`,
+<<<<<<< HEAD
       image: "/Lahasa-kailash.jpg",
+=======
+      image: "/lahasa1.jpeg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Scenic drive through Kamba La Pass",
         "Visit to the breathtaking Yamdrok Lake",
@@ -51,7 +63,11 @@
       One of the highlights of today’s drive is the crossing of Brahmaputra River Bridge, an architectural marvel standing against the backdrop of majestic peaks. En route, you may spot Tibetan antelopes, wild donkeys, and even golden eagles soaring above.
   
       By evening, arrive in Saga, a small but essential town for pilgrims and travelers heading to Mount Kailash. Here, enjoy a hearty dinner and rest in a comfortable guesthouse, as tomorrow’s journey will take you even closer to the spiritual heart of Tibet.`,
+<<<<<<< HEAD
       image: "/Saga-dawa-view.jpeg",
+=======
+      image: "/man.png",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Crossing the Tibetan plateau with stunning landscapes",
         "Stopover at Lhatse town for cultural insights",
@@ -68,7 +84,11 @@
       Lake Manasarovar, situated at an altitude of 4,590 meters, is considered sacred in Hinduism, Buddhism, Jainism, and Bon traditions. Pilgrims believe that taking a dip in the crystal-clear waters of the lake washes away sins and brings spiritual enlightenment. Spend time absorbing the tranquil beauty of the lake, surrounded by the mighty Himalayas, and experience a moment of profound serenity.
   
       In the evening, visit Chiu Monastery, perched on a hill overlooking the lake. The monastery offers a perfect vantage point for breathtaking sunset views over Manasarovar. Tonight, rest in a basic yet comfortable guesthouse near the lake, preparing for the upcoming spiritual trek to Mount Kailash.`,
+<<<<<<< HEAD
       image: "/Kailash-riverflow.jpg",
+=======
+      image: "/departure.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Scenic drive through Tibetan highlands",
         "First view of Mount Kailash from a distance",
@@ -85,7 +105,11 @@
       Following the monastery visit, embark on a drive towards Darchen, the base camp for the Mount Kailash trek. The route offers spectacular views of the majestic peak of Kailash, standing at 6,638 meters. As you approach Darchen, feel the spiritual energy of this sacred mountain, which is revered by four major religions.
   
       Upon arrival, explore the small town of Darchen, where pilgrims from around the world gather to begin their trek. Spend the evening acclimatizing and preparing for the challenging yet rewarding Kailash Kora (circumambulation). Overnight stay in Darchen, with a night filled with anticipation for the trek ahead.`,
+<<<<<<< HEAD
       image: "/Kailash-camp.webp",
+=======
+      image: "/monastry.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Morning visit to Chiu Monastery",
         "Drive with stunning views of Mount Kailash",
@@ -104,7 +128,11 @@
       After several hours of trekking, arrive at Dirapuk Monastery, situated at an altitude of 5,080 meters. From here, you will have an unparalleled view of the **North Face of Mount Kailash**, considered the most striking and photogenic side of the mountain. 
   
       Spend the evening resting at a simple guesthouse near Dirapuk, preparing for the most challenging day of the trek tomorrow.`,
+<<<<<<< HEAD
       image: "/Monastery-View.webp",
+=======
+      image: "/monastery.webp",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Start of Kailash Parikrama (trek)",
         "Scenic trek along the western face of Mount Kailash",
@@ -121,7 +149,11 @@
       At the top of Dolma La Pass, take a moment to soak in the powerful energy of this sacred location. Nearby, see **Gauri Kund (Lake of Compassion)**, a revered site for Hindu pilgrims. From here, descend carefully as the terrain becomes rocky and steep.
   
       After a few hours of trekking downhill, arrive at **Zuthulpuk Monastery**, known for its meditation caves where Tibetan saint Milarepa is said to have meditated. The surrounding area offers a serene environment to reflect on the journey. Overnight in a simple guesthouse near Zuthulpuk.`,
+<<<<<<< HEAD
       image: "/Kaialsh-snow.JPG",
+=======
+      image: "/kailash-trek-5.webp",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Challenging trek over Dolma La Pass (5,636m)",
         "Stunning views of Gauri Kund (Lake of Compassion)",
@@ -140,7 +172,11 @@
       The drive retraces the path through vast Tibetan landscapes, offering another opportunity to admire the rugged beauty of the region. Along the way, stop at scenic viewpoints to capture breathtaking photos of the high-altitude plateau, rolling hills, and distant snow-capped peaks.
   
       Upon reaching **Saga**, settle into your accommodation and enjoy a warm meal. Take the evening to rest and rejuvenate before continuing your return journey the next day.`,
+<<<<<<< HEAD
       image: "/Saga-dawa.jpeg",
+=======
+      image: "/saga4.jpeg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Final stretch of the Kailash Kora",
         "Easy walk through scenic valleys",
@@ -159,7 +195,11 @@
       Upon arrival in **Shigatse**, check into your hotel and take the evening to relax. You may choose to explore the vibrant local markets or revisit the **Tashilhunpo Monastery**, the seat of the Panchen Lama, which remains an important spiritual and cultural landmark.
   
       End the day with a comfortable stay in a hotel, preparing for the journey back to Lhasa.`,
+<<<<<<< HEAD
       image: "/Saga-dawa-temple.jpeg",
+=======
+      image: "/saga2.jpeg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Scenic drive through the Tibetan Plateau",
         "High-altitude landscapes and nomadic culture",
@@ -178,7 +218,11 @@
       In the evening, gather for a **farewell dinner at a traditional Tibetan restaurant**, celebrating the successful completion of this extraordinary journey. Enjoy local delicacies while reminiscing about the unforgettable experiences and connections made throughout the trip.
   
       Spend your final night in Lhasa, cherishing the memories and spiritual insights gained during this once-in-a-lifetime pilgrimage.`,
+<<<<<<< HEAD
       image: "/Kaialsh-snow.JPG",
+=======
+      image: "/gllry1.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Scenic drive back to Lhasa",
         "Final photo stops and sightseeing",
@@ -197,7 +241,11 @@
       As you bid farewell to Tibet, carry with you the profound spiritual experiences, breathtaking landscapes, and cultural encounters that have made this trip truly extraordinary. The memories of Mount Kailash, Lake Manasarovar, and the vibrant Tibetan culture will stay with you for a lifetime.
   
       We wish you a safe journey ahead, hoping that this pilgrimage has brought you peace, inspiration, and a deep connection to the sacred lands of Tibet.`,
+<<<<<<< HEAD
       image: "/Inner-kora-view.jpg",
+=======
+      image: "/departure.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Morning breakfast and final reflections",
         "Transfer to Lhasa Gonggar Airport/train station",

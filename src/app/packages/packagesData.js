@@ -26,7 +26,11 @@ const PACKAGES = [
         location: "Tibet, China",
         difficulty: "Challenging",
         rating: 4,
+<<<<<<< HEAD
         img:  "/Lahasa-kailash.jpg",
+=======
+        img: "/Lahasa.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         highlights: [
           "Explore Lhasa & Potala Palace",
           "Scenic Overland Drive",
@@ -44,7 +48,11 @@ const PACKAGES = [
         location: "Nepal & Tibet",
         difficulty: "Easy",
         rating: 5,
+<<<<<<< HEAD
         img: "/helicopter2.webp",
+=======
+        img: "/helicopter1.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         highlights: [
           "Helicopter ride over the Himalayas",
           "Lake Mansarovar Holy Bath",
@@ -62,7 +70,11 @@ const PACKAGES = [
         location: "Tibet, China",
         difficulty: "Moderate",
         rating: 4,
+<<<<<<< HEAD
         img: "/Kailash-yatra.jpg",
+=======
+        img: "/kailash-trek-4.webp",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         highlights: [
           "Sacred Lake Mansarovar",
           "Three-Day Kailash Parikrama",
@@ -81,7 +93,11 @@ const PACKAGES = [
       location: "Tibet, China",
       difficulty: "Strenuous",
       rating: 5,
+<<<<<<< HEAD
       img: "/Inner-kora-view.jpg",
+=======
+      img: "/saga4.jpeg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Inner & Outer Kora of Kailash",
         "Cross Dolma La Pass",
@@ -98,7 +114,11 @@ const PACKAGES = [
       location: "Tibet, China",
       difficulty: "Moderate",
       rating: 5,
+<<<<<<< HEAD
       img: "/Saga-dawa.jpeg",
+=======
+      img: "/saga3.jpeg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Saga Dawa Festival Celebration",
         "Kailash & Mansarovar Visit",
@@ -107,7 +127,11 @@ const PACKAGES = [
       link: "/packages/saga-dawa",
     },
     {
+<<<<<<< HEAD
       title: "Lahasa Kailash Tour",
+=======
+      title: "Kailash Mansarovar Yatra",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       description:
         "A classic pilgrimage to Mount Kailash and Lake Mansarovar, fulfilling a divine spiritual journey. It begins with a visit to the sacred Lake Mansarovar, where pilgrims take a ritual dip.",
       duration: "10 Days",
@@ -115,13 +139,21 @@ const PACKAGES = [
       location: "Tibet, China",
       difficulty: "Moderate",
       rating: 4,
+<<<<<<< HEAD
       img: "/trekking.webp",
+=======
+      img: "/trekking.jpg",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
       highlights: [
         "Sacred Lake Mansarovar",
         "3-Day Kailash Kora Trek",
         "Pilgrimage & Cultural Insights",
       ],
+<<<<<<< HEAD
       link: "/packages/lhasa-kailash",
+=======
+      link: "/packages/kailash-yatra",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     },
   ];
   

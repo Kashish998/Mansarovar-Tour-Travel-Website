@@ -75,26 +75,43 @@ export default function ServicesPage() {
                 {/* ✅ Service Highlights */}
                 <ul className="flex justify-center md:justify-start gap-2 flex-wrap">
                   {service.highlights.map((highlight, i) => (
+<<<<<<< HEAD
                     <li key={i} className="bg-blue-100 text-yellow-700 px-3 py-1 rounded-lg text-xs font-medium">
+=======
+                    <li key={i} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-lg text-xs font-medium">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                       {highlight}
                     </li>
                   ))}
                 </ul>
 
                 {/* ✅ Service Description */}
+<<<<<<< HEAD
                 <p className="text-md text-gray-600">{service.description}</p>
                 <p className="text-sm text-gray-500">{service.details}</p>
+=======
+                <p className="text-sm text-gray-600">{service.description}</p>
+                <p className="text-xs text-gray-500">{service.details}</p>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
 
                 {/* ✅ Contact & Enquiry Buttons */}
                 <div className="mt-4 flex flex-wrap justify-center md:justify-start gap-3">
                   <Link href="/contact">
+<<<<<<< HEAD
                     <button className="flex items-center gap-2 px-4 py-2 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-black transition">
+=======
+                    <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-green-700 transition">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                       <PhoneCall size={18} />
                       Contact Us
                     </button>
                   </Link>
                   <Link href="/query-form">
+<<<<<<< HEAD
                     <button className="flex items-center gap-2 px-4 py-2 bg-yellow-600 text-white rounded-lg shadow-md hover:bg-black transition">
+=======
+                    <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-green-700 transition">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                       <Mail size={18} />
                       Enquiry
                     </button>

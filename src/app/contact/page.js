@@ -35,6 +35,7 @@ export default function ContactUs() {
 
       {/* Contact Section */}
       <div ref={contactRef} className="container mx-auto px-6 md:px-16 py-16">
+<<<<<<< HEAD
       <motion.div
   initial={{ opacity: 0, y: -20 }}
   animate={{ opacity: 1, y: 0 }}
@@ -50,6 +51,18 @@ export default function ContactUs() {
   </p>
 </motion.div>
 
+=======
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="text-center"
+        >
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            Planning your next journey? Fill out the form below, and our team will assist you.
+          </p>
+        </motion.div>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Form */}
@@ -134,6 +147,7 @@ export default function ContactUs() {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="flex flex-col"
           >
+<<<<<<< HEAD
             <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
       <h2 className="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h2>
 
@@ -158,6 +172,23 @@ export default function ContactUs() {
         </a>
       </div>
     </div>
+=======
+            <div className="bg-gray-100 p-8 rounded-lg shadow-lg mb-6">
+              <h2 className="text-2xl font-semibold text-gray-800">Get in Touch</h2>
+              <p className="text-gray-600 mt-2 flex items-center">
+                <MapPin className="mr-2" /> Taj Tour And Travel
+              </p>
+              <p className="text-gray-600">
+                519 Jaina Tower -II, District Center, Janakpuri, New Delhi -110058, INDIA
+              </p>
+              <p className="text-gray-600 mt-2 flex items-center">
+                <PhoneCall className="mr-2" /> +91-9891515623
+              </p>
+              <p className="text-gray-600 flex items-center">
+                <Mail className="mr-2" /> sales1.tajtourandtravel@gmail.com
+              </p>
+            </div>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             <div className="overflow-hidden rounded-lg shadow-lg">
                {/* Google Map */}
            <KailashMap/>

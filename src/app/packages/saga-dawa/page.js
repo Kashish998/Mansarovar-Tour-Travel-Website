@@ -17,9 +17,15 @@ export default function LhasaKailashTour() {
     <div className="bg-gray-50 min-h-screen">
      <Hero />
 
+<<<<<<< HEAD
       <div className="max-w-6xl mx-auto px-2 md:px-0 pt-8 space-y-8">
         <div className="max-w-6xl mx-auto px-2 md:px-0 pt-8 space-y-8">
           <div className="bg-gray-50 py-10 px-2 md:px-8">
+=======
+      <div className="max-w-6xl mx-auto px-4 md:px-0 pt-8 space-y-8">
+        <div className="max-w-6xl mx-auto px-4 md:px-0 pt-8 space-y-8">
+          <div className="bg-gray-50 py-10 px-4 md:px-8">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             {/* Animated Card Container */}
             <motion.div
               className="max-w-6xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden flex flex-col md:flex-row transition-all duration-500 hover:shadow-2xl"
@@ -27,18 +33,50 @@ export default function LhasaKailashTour() {
             >
               {/* Image Grid Section */}
               <motion.div
+<<<<<<< HEAD
                 className="w-full md:w-1/2 "
+=======
+                className="w-full md:w-1/2 grid grid-cols-2 gap-2"
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
               >
                 <Image
+<<<<<<< HEAD
                   src="/SagaDawa-Package.webp"
+=======
+                  src="/saga1.jpeg"
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                   alt="Lhasa City"
                   width={350}
                   height={250}
                   className="w-full h-full object-cover"
                 />
+<<<<<<< HEAD
+=======
+                <Image
+                  src="/saga4.jpeg"
+                  alt="Potala Palace"
+                  width={350}
+                  height={250}
+                  className="w-full h-full object-cover"
+                />
+                <Image
+                  src="/saga3.jpeg"
+                  alt="Lake Mansarovar"
+                  width={350}
+                  height={250}
+                  className="w-full h-full object-cover"
+                />
+                <Image
+                  src="/saga2.jpeg"
+                  alt="Mount Kailash"
+                  width={350}
+                  height={250}
+                  className="w-full h-full object-cover"
+                />
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
               </motion.div>
 
               {/* Content Section */}
@@ -114,6 +152,7 @@ export default function LhasaKailashTour() {
                   </div>
                 </div>
 
+<<<<<<< HEAD
       {/* Buttons for package details & contact */}
       <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-start gap-2 mt-4">
   {/* WhatsApp Button */}
@@ -140,13 +179,60 @@ export default function LhasaKailashTour() {
     </button>
   </Link>
 </div>
+=======
+                {/* CTA Buttons - Optimized for Mobile & Desktop */}
+                <div className="mt-5 flex flex-col md:flex-row md:space-x-3 space-y-2 md:space-y-0">
+                  {/* Call Now Button */}
+                  <Link href="tel:+1234567890" className="w-full md:w-auto">
+                    <motion.button
+                      whileHover={{ scale: 1.05 }}
+                      className="w-full md:w-auto px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-md shadow-md flex items-center justify-center space-x-2 transition-all hover:bg-green-700"
+                    >
+                      <FaPhoneAlt className="text-base" />
+                      <span>Call</span>
+                    </motion.button>
+                  </Link>
+
+                  {/* Enquiry Now Button */}
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    className="w-full md:w-auto px-3 py-2 bg-yellow-500 text-white text-sm font-medium rounded-md shadow-md flex items-center justify-center space-x-2 transition-all hover:bg-yellow-600"
+                  >
+                    <FaEnvelope className="text-base" />
+                    <Link href="/contact">
+                      {" "}
+                      <span>Enquiry</span>
+                    </Link>
+                  </motion.button>
+
+                  {/* WhatsApp Button */}
+                  <Link
+                    href="https://wa.me/YOUR_PHONE_NUMBER"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full md:w-auto"
+                  >
+                    <motion.button
+                      whileHover={{ scale: 1.05 }}
+                      className="w-full md:w-auto px-3 py-2 bg-blue-500 text-white text-sm font-medium rounded-md shadow-md flex items-center justify-center space-x-2 transition-all hover:bg-blue-600"
+                    >
+                      <FaWhatsapp className="text-base" />
+                      <span>WhatsApp</span>
+                    </motion.button>
+                  </Link>
+                </div>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
               </motion.div>
             </motion.div>
           </div>
         </div>{" "}
         <div className="max-w-6xl mx-auto py-12 px-6">
           {/* Main Heading */}
+<<<<<<< HEAD
           <h2 className="text-4xl font-bold text-center mb-10 text-gray-900 uppercase tracking-wide border-b-4 border-yellow-600 pb-4">
+=======
+          <h2 className="text-4xl font-bold text-center mb-10 text-gray-900 uppercase tracking-wide border-b-4 border-blue-600 pb-4">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             Saga Dawa Kailash Itinerary
           </h2>
 
@@ -160,12 +246,20 @@ export default function LhasaKailashTour() {
                     onClick={() => setSelectedDay(index)}
                     className={`w-full flex items-center justify-between py-3 px-4 rounded-lg font-semibold transition-all text-lg ${
                       selectedDay === index
+<<<<<<< HEAD
                         ? "bg-yellow-600 text-white shadow-md"
+=======
+                        ? "bg-blue-600 text-white shadow-md"
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                         : "bg-gray-200 hover:bg-gray-300 text-gray-800"
                     }`}
                   >
                     <span className="flex items-center gap-2">
+<<<<<<< HEAD
                       <FaCalendarAlt className="text-grey-500" /> {item.day}:{" "}
+=======
+                      <FaCalendarAlt className="text-blue-500" /> {item.day}:{" "}
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                       {item.title}
                     </span>
                     {selectedDay === index ? (
@@ -194,7 +288,11 @@ export default function LhasaKailashTour() {
 
                       {/* Key Features */}
                       <div className="mt-4">
+<<<<<<< HEAD
                         <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-black pl-3">
+=======
+                        <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-blue-600 pl-3">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                           Key Features
                         </h4>
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -203,7 +301,11 @@ export default function LhasaKailashTour() {
                               key={i}
                               className="flex items-center gap-2 bg-gray-100 p-3 rounded-lg shadow-md transition-all hover:bg-blue-50"
                             >
+<<<<<<< HEAD
                               <FaMapMarkerAlt className="text-yellow-500" />{" "}
+=======
+                              <FaMapMarkerAlt className="text-blue-500" />{" "}
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                               {highlight}
                             </li>
                           ))}
@@ -240,7 +342,11 @@ export default function LhasaKailashTour() {
 
               {/* Key Features */}
               <div className="mt-6">
+<<<<<<< HEAD
                 <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-black pl-3">
+=======
+                <h4 className="text-xl font-semibold mb-3 text-gray-900 border-l-4 border-blue-600 pl-3">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                   Key Features
                 </h4>
                 <ul className="grid grid-cols-1  gap-3">
@@ -249,7 +355,11 @@ export default function LhasaKailashTour() {
                       key={i}
                       className="flex items-center gap-2 bg-gray-100 p-3 rounded-lg shadow-md transition-all hover:bg-blue-50"
                     >
+<<<<<<< HEAD
                       <FaMapMarkerAlt className="text-yellow-500" /> {highlight}
+=======
+                      <FaMapMarkerAlt className="text-blue-500" /> {highlight}
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                     </li>
                   ))}
                 </ul>
@@ -259,7 +369,11 @@ export default function LhasaKailashTour() {
         </div>
         <div className="bg-white shadow-lg rounded-2xl p-6">
           <h2 className="text-2xl font-bold flex items-center gap-2">
+<<<<<<< HEAD
             <FaQuestionCircle className="text-yellow-500" /> Frequently Asked
+=======
+            <FaQuestionCircle className="text-blue-500" /> Frequently Asked
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
             Questions
           </h2>
           <div className="mt-4 space-y-4">
@@ -270,7 +384,11 @@ export default function LhasaKailashTour() {
                   onClick={() => setOpenFAQ(openFAQ === index ? null : index)}
                 >
                   {faq.question}{" "}
+<<<<<<< HEAD
                   <span className="text-yellow-500 text-xl">
+=======
+                  <span className="text-blue-500 text-xl">
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
                     {openFAQ === index ? <FaMinus /> : <FaPlus />}
                   </span>
                 </button>

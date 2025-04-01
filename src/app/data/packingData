@@ -1,5 +1,6 @@
 // packingData.js - This file stores all the packing-related data
 
+<<<<<<< HEAD
 export const destinations = [
   "Kailash Mansarovar",
   "Kailash Full Moon",
@@ -11,6 +12,15 @@ export const weatherConditions = ["Cold", "Warm", "Rainy", "Hot"];
 // Packing suggestions based on package selection
 export const packageChecklists = {
   "Kailash Mansarovar Yatra": [
+=======
+export const destinations = ["Kailash Mansarovar", "Kailash Full Moon", "Lhasa-Kailash"];
+
+export const weatherConditions = ["Cold", "Warm", "Rainy", "Hot"];
+
+// Packing suggestions based on destination
+export const packingSuggestions = {
+  "Kailash Mansarovar": [
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     "Hiking Boots",
     "Thermal Wear",
     "Waterproof Jacket",
@@ -22,7 +32,11 @@ export const packageChecklists = {
     "First Aid Kit",
     "Flashlight",
   ],
+<<<<<<< HEAD
   "Kailash Full Moon Tour": [
+=======
+  "Kailash Full Moon": [
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     "Warm Layers",
     "Thermal Gloves",
     "Headlamp",
@@ -32,7 +46,11 @@ export const packageChecklists = {
     "Camera with Extra Battery",
     "Personal Medications",
   ],
+<<<<<<< HEAD
   "Lhasa-Kailash Tour": [
+=======
+  "Lhasa-Kailash": [
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     "Comfortable Walking Shoes",
     "Water Bottle",
     "Sun Hat",
@@ -43,6 +61,7 @@ export const packageChecklists = {
     "Travel Pillow",
     "Backpack",
   ],
+<<<<<<< HEAD
   "Helicopter Tour": [
     "Compact Luggage",
     "Light Jacket",
@@ -63,17 +82,23 @@ export const packageChecklists = {
     "Torchlight",
     "Medications",
   ],
+=======
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
 };
 
 // Additional packing items based on weather conditions
 export const weatherExtras = {
   Cold: ["Heavy Jacket", "Woolen Cap", "Thermal Wear", "Hand Warmers", "Gloves"],
   Warm: ["Light Clothes", "Sunscreen", "Sunglasses", "Cooling Towel"],
+<<<<<<< HEAD
   Rainy: [
     "Raincoat",
     "Waterproof Shoes",
     "Umbrella",
     "Waterproof Backpack Cover",
   ],
+=======
+  Rainy: ["Raincoat", "Waterproof Shoes", "Umbrella", "Waterproof Backpack Cover"],
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
   Hot: ["Cooling Towel", "Hydration Pack", "Cap", "Portable Fan"],
 };

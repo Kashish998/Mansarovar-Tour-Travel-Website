@@ -28,7 +28,11 @@ export default function Gallery() {
     initial={{ opacity: 0, y: -20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1, ease: "easeOut" }}
+<<<<<<< HEAD
     className="text-3xl md:text-5xl font-extrabold text-gray-900 relative inline-block uppercase tracking-wide"
+=======
+    className="text-4xl md:text-5xl font-extrabold text-gray-900 relative inline-block uppercase tracking-wide"
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
   >
     Captured Moments
     <span className="block h-1 w-28 bg-yellow-500 mx-auto mt-2 rounded-full"></span>

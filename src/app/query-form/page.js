@@ -30,7 +30,11 @@ function QueryFormContent() {
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center px-6 pt-20" 
+<<<<<<< HEAD
       style={{ backgroundImage: "url('/Himalayan-view.jpg')" }} 
+=======
+      style={{ backgroundImage: "url('/Himalayan-Holidays-to-Nepal.jpg')" }} 
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
     >
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -38,10 +42,14 @@ function QueryFormContent() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="bg-white/80 backdrop-blur-md shadow-lg rounded-lg p-6 max-w-md w-full"
       >
+<<<<<<< HEAD
          <h2 className="text-2xl sm:text-2xl font-extrabold text-gray-900 text-center mb-6 relative">
          Inquiry Form
         <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-20 sm:w-24 h-1 bg-yellow-400 rounded-full"></span>
       </h2>
+=======
+        <h2 className="text-2xl font-bold text-gray-800 text-center">Inquiry Form</h2>
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
         <p className="text-gray-600 text-center mt-2">
           Fill in your details and we will get back to you about <strong>{serviceName}</strong>.
         </p>

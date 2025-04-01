@@ -3,7 +3,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata = {
+<<<<<<< HEAD
   title: "Mansarovar Tour & Travels",
+=======
+  title: "Himalayan Glory Travels",
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
   description: "Best travel experiences in the Himalayas",
 };
 

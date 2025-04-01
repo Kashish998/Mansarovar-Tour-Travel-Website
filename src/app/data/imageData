@@ -1,4 +1,5 @@
 export const images = [
+<<<<<<< HEAD
     { src: "/Mount-Kailash.jpeg", alt: "Mount Kailash" },
     { src: "/trekking.webp", alt: "Departure Point" },
     { src: "/lhasa-view.jpg", alt: "Kailash Trek 3" },
@@ -43,3 +44,32 @@ export const images = [
 
   ];
  
+=======
+    { src: "/bg-kailash.jpg", alt: "Mount Kailash" },
+    { src: "/departure.jpg", alt: "Departure Point" },
+    { src: "/FullMoon.webp", alt: "Full Moon View" },
+    { src: "/gallry.jpg", alt: "Scenic Gallery" },
+    { src: "/gllry1.jpg", alt: "Gallery Image 1" },
+    { src: "/gllry2.webp", alt: "Gallery Image 2" },
+    { src: "/Guge-kingdom.webp", alt: "Guge Kingdom" },
+    { src: "/helicopter kailash.jpeg", alt: "Helicopter Tour" },
+    { src: "/Himalayan-Holidays-to-Nepal.jpg", alt: "Nepal Holidays" },
+    { src: "/history.JPG", alt: "Historic Destination" },
+    { src: "/Kailash-Mansarovar-Yatra.jpg", alt: "Kailash Mansarovar Yatra" },
+    { src: "/kailash-trek-2.webp", alt: "Kailash Trek 2" },
+    { src: "/kailash-trek-3.webp", alt: "Kailash Trek 3" },
+    { src: "/kailash-trek-4.webp", alt: "Kailash Trek 4" },
+    { src: "/kailash-trek-5.webp", alt: "Kailash Trek 5" },
+    { src: "/kailash-trek-8.jpg", alt: "Kailash Trek 8" },
+    { src: "/kailash-trek-9.jpg", alt: "Kailash Trek 9" },
+    { src: "/kap.jpg", alt: "Kap" },
+    { src: "/kathmandu-lhasa.jpeg", alt: "Kathmandu to Lhasa" },
+    { src: "/Lahasa.jpg", alt: "Lhasa City" },
+    { src: "/man.png", alt: "Man PNG" },
+    { src: "/monastery.webp", alt: "Monastery" },
+    { src: "/Mount-Kailash.jpeg", alt: "Mount Kailash Image" },
+    { src: "/rakshas.jpg", alt: "Rakshas" },
+    { src: "/Yatra.jpg", alt: "Yatra" },
+  ];
+  
+>>>>>>> 827b76d2b779c11277137b6cb34164097e9037ef
